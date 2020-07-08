@@ -1,0 +1,16 @@
+name = "ThorlabsDCC1545M"
+uuid = "82f6f160-9a33-4c4f-8e00-1e0b033d0330"
+authors = ["Markus Petters"]
+version = "0.1.0"
+
+[deps]
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+
+[compat]
+julia = "1.4.2"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
